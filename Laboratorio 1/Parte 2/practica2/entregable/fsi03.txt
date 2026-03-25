@@ -1,0 +1,77 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Descomprimir el archivo .tar.gz
+
+uudecode apendice.txt
+
+asi se obtuvo el tar.gz, y hay que descomprimirlo
+
+tar -xzf practica2.tar.gz
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Generar un par de claves (pública/privada) para el grupo, 
+
+gpg --full-generate-key
+
+y se seleccionaron las siguietnes opciones:
+RSA and RSA
+key does not expire
+Comment: fsi03
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cifrar el archivo paracifrar.txt utilizando la clave pública de los docentes
+
+gpg --import fsi-pub.asc
+gpg --list-keys
+gpg --output paracifrar.gpg --encrypt --recipient "fsi@fing.edu.uy" paracifrar.txt
+
+Primero importamos, una vez importado, ahi si... usamos output para cifrar con recipient.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exportar la clave pública del grupo generada.
+
+gpg --armor --output fsi03-pub.asc --export "fsi03"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Firmar la clave pública de los docentes y asignarle un nivel de confianza ade-
+cuado para la situación
+
+gpg --sign-key 1206991F34BE73C336167DB0D70A1DB335846E40
+gpg --armor --output fsi-pub-signed.asc --export "fsi@fing.edu.uy"
+
+habia que setear el nivel de confianza
+
+gpg --edit-key "fsi@fing.edu.uy"
+
+ahi aparecio opciones y se ingresaron
+
+trust
+4
+quit
+
+
+Justificacion del nivel de confianza:
+
+Se asignó confianza full (nivel 4) a la clave de los docentes porque fue distribuida oficialmente 
+en el marco del curso y se verificó su fingerprint en la consigna/material provisto. En este contexto 
+académico se considera una fuente confiable para firmar otras claves relacionadas con la práctica.  
+No se asignó nivel ultimate (5) porque ese nivel se reserva para claves propias. no se asigno 3 porque 
+vino de un canal oficial el eva del curso
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Utilizando la herramienta OpenSSL:
+
+openssl genpkey -algorithm RSA -out fsi03-private.key -pkeyopt rsa_keygen_bits:3072
+openssl rsa -pubout -in fsi03-private.key -out fsi03-public.pem
+
+y en la ultima:
+
+openssl req -new -key fsi03-private.key -out fsi03.csr
+
+y se rellena las opciones, colocamos
+
+Country Name =UY
+State=Montevideo
+Locality Name=Montevideo
+Organization Name=FING
+Organizational Unit Name=fsi03
+Common Name=fsi03
