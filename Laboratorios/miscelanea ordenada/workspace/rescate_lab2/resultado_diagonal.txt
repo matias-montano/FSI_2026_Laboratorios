@@ -1,0 +1,1 @@
+# Hydra v9.2 run at 2026-05-13 00:22:29 on 10.0.3.5 ssh (hydra -C userpass.txt -t 1 -V -o resultado_diagonal.txt ssh://10.0.3.5)

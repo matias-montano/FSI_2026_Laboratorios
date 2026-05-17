@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-05-13 17:33:09 on 10.0.3.5 ssh (hydra -C combos_internos.txt -t 4 -v -o resultado_completo.txt ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 17:39:37 on 10.0.3.5 ssh (hydra -R)
