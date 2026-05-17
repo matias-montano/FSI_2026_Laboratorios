@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-05-13 00:38:06 on 10.0.3.5 ftp (hydra -L usuarios.txt -P dict.txt -t 4 -V -o hydra_ftp.txt ftp://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 01:09:55 on 10.0.3.5 ftp (hydra -R)

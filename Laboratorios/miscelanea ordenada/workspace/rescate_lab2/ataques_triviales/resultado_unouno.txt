@@ -1,2 +1,0 @@
-# Hydra v9.2 run at 2026-05-13 21:50:20 on 10.0.3.5 ssh (hydra -L usuarios.txt -p unouno -t 6 -w 3 -v -o resultado_unouno.txt ssh://10.0.3.5)
-# Hydra v9.2 run at 2026-05-13 21:55:02 on 10.0.3.5 ssh (hydra -L usuarios.txt -p unouno -t 4 -w 1 -v -o resultado_unouno.txt ssh://10.0.3.5)

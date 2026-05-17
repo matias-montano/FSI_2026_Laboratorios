@@ -1,1 +1,0 @@
-# Hydra v9.2 run at 2026-05-13 01:04:53 on 10.0.3.5 ftp (hydra -l mnicotra -P pass_mnicotra.txt -t 1 -V -o resultado_mnicotra.txt ftp://10.0.3.5)

