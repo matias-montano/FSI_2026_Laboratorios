@@ -1,0 +1,21 @@
+Received: from smtp.hackme.fsi.org
+    by smtp.hackme.fsi.org (8.13.8/8.13.8) with ESMTP
+    for <$user1@mail.hackme.fsi.org>; Sun, 29 Oct 2023 14:04:32 -0300
+Message-ID: <4FA6AF1F.125463332@hackme.fsi.org>
+Date: Tue, 29 Oct 2024 14:04:31 -0300
+From: Jorge G. Adrover <jadrover@hackme.fsi.org>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20120428 Thunderbird/12.0.1
+MIME-Version: 1.0
+To: Silvia E. Urreta <surreta@hackme.fsi.org>
+Subject: Nuevos releases
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Estimado, el otro día salió una nueva versión de Ubuntu:
+24.10 Oracular Oriole (cada vez buscan nombres más
+complicados, pero me gustan).
+
+Deberíamos actualizar nuestros sistemas cuanto antes.
+
+Saludos,
+  Jorge G. Adrover

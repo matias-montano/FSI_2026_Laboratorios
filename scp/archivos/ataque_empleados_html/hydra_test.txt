@@ -1,0 +1,4 @@
+# Hydra v9.2 run at 2026-05-16 19:12:10 on 10.0.3.5 ssh (hydra -L users.txt -P password_internos.txt -t 4 -w 1.2 -v -f -o hydra_test.txt -I ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-16 19:17:58 on 10.0.3.5 ssh (hydra -L users.txt -P password_internos.txt -t 4 -w 1.2 -v -f -o hydra_test.txt -I ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-17 00:46:27 on 10.0.3.5 ssh (hydra -L users.txt -P passwords_del_correo.txt -t 4 -w 1.2 -v -f -o hydra_test.txt -I ssh://10.0.3.5)
+# Hydra v9.2 run at 2026-05-17 00:48:13 on 10.0.3.5 ssh (hydra -L users.txt -P passwords_del_correo.txt -t 4 -w 1.2 -v -f -o hydra_test.txt -I ssh://10.0.3.5)
