@@ -109,7 +109,7 @@ passwd
 passwd: password updated successfully
 ```
 
-## colcoar el 2FA en el sistema
+# colcoar el 2FA en el sistema
 
 ejecutamos:
 ```bash
@@ -191,4 +191,6 @@ Your emergency scratch codes are:
   48716730
 ```
 
-Estos son códigos de emergencia de un solo uso, sirven para cunado uno no tiene acceso a la aplicacion que le da el TOTP, entonces en vez del código de 6 dígitos, se usa uno de los anteriores,RECORDAR que cada uno se puede usar una sola vez, para poder acceder y hacer cambios de emergencia, notar que estos codigos se necesita guardarlos en un lugar seguro, preferentemenet separado de donde este la app de TOTP.
+Estos son códigos de emergencia de un solo uso, que no se comparten, sirven para cunado uno no tiene acceso a la aplicacion que le da el TOTP, entonces en vez del código de 6 dígitos, se usa uno de los anteriores,RECORDAR que cada uno se puede usar una sola vez, para poder acceder y hacer cambios de emergencia (por ejemplo como ya se dijo en caso de pérdida del dispositivo y luego configurar nuevamente el 2FA con un nuevo secreto), notar que estos codigos se necesita guardarlos en un lugar seguro, preferentemenet separado de donde este la app de TOTP. Esto es considerado una buena practica
+
+Otra buena practica es que, si esta en un servidor, sincronizar la hora del dispositivo y del servidor (prefeiblemente mediante un protocolo como NTP) para evitar problemas con TOTP.

