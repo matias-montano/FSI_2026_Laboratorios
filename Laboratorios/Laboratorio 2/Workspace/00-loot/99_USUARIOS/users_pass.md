@@ -1,5 +1,6 @@
 usuario:contraseña ----> como se obtuvo
-mre:123        ----> obtenida con hydra ssh ataque diccionario usando 123
+nmacgarry:123        ----> obtenida con hydra ssh ataque diccionario usando 123
+mre:miguelre!        ----> obtenida con hydra ssh ataque con un diccionario con permutaciones de nombre y apellido
 surreta:surreta      ----> obtenida con hydra ssh ataque diccionario usando mismo nobre y pass
 daguirre:contratreta ----> obtenida con John the Ripper usando diccionario dict.txt y reglas por defecto contra hashes extraídos de /etc/shadow
 jadrover:oneiricocelot ----> obtenida con John the Ripper, usando como diccionario los posibles nombres en clave de ubuntu

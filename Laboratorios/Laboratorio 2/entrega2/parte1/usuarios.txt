@@ -1,0 +1,23 @@
+usuario:contraseña ----> como se obtuvo
+
+nmacgarry:123        ----> obtenida con hydra ssh ataque diccionario usando 123
+
+mre:miguelre!        ----> obtenida con hydra ssh ataque con un diccionario con permutaciones de nombre y apellido
+
+surreta:surreta      ----> obtenida con hydra ssh ataque diccionario usando mismo nobre y pass
+
+daguirre:contratreta ----> al obtener `surreta`, se pudo descargar un shadow.bak,gracias a esto con John the Ripper usando como diccionario dict.txt y reglas por defecto se encontro la contrasena.
+
+jadrover:oneiricocelot ----> al obtener `surreta`, tambien se pudo descargar un archivo llamaod `mail`, este era un mail de `jadrover` a `surreta` en el cual se insinuaba que a `jadrover` le gustaba los nombres clave de ubuntu, entonces usando John the Ripper y como diccionario los posibles nombres en clave de ubuntu, se obtuvo la credencial, (el hash utilizado fue el de shadow.bak obtenido al ingresar por `surreta`)
+
+root:rbt.2%5(w`z>4)o&+?l-c]9:x=/h<qj@ ----> para este, lo que se observo fue el directorio de `jadrover`, en el mismo habia un `archivo.txt` encriptado, de hecho uno podia mirar el historial de comandos de jadrover y ver que habia encriptado con su clave privada `gpg -e archivo.txt`, tambien si uno hacia `ls -a` podia ver un `.gnupg`, enotnces la idea fue, usar la clave privada de `jadrover` para desencriptar el mensaje, pero tenia una passphrase, asi que se investigo como obtener la passphrase, y resulto ser la misma contrasena de usuario que jadrover, es decir oneiricocelot, una vez ahi se obtuvo lo siguiente
+```
+gpg: encrypted with 1024-bit ELG key, ID 853B9DEFFB0CEABB, created 2026-05-10
+      "Jorge G. Adrover <jadrover@hackme.fsi.org>"
+Hostname: localhost
+User:     root
+Password: rbt.2%5(w`z>4)o&+?l-c]9:x=/h<qj@
+```
+
+
+
