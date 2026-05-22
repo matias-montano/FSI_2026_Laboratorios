@@ -1,1 +1,0 @@
-# Hydra v9.2 run at 2026-05-17 20:40:16 on 10.0.3.5 ssh (hydra -L root_jadrover.txt -P /tmp/pass_extensas.txt -t 4 -w 1.2 -v -f -o hydra_test.txt ssh://10.0.3.5)

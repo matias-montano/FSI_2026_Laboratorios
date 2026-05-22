@@ -1,6 +1,0 @@
-root:$6$yusvwqkt$XGlTL1BfevHD5VHtYKDvJh14vRa48VgRX5QfjEVo9KD53Zs5IRi5iM8/H9X7dnVQmDsBoJSIs/Xq2SSGbSoB.1:20583:0:99999:7:::
-surreta:$6$rqxwyesc$zAsBVpUSb3cyK1JsSm4MKJmTyiSyKWGQONjgfiIpNKVMqhmcd9uqnmihV.wVd3YgEIBtnL23GnQg5iLanjiyx1:20583:0:99999:7:::
-mre:$6$ifvbkleu$NGuWC2Z/At3FfpLBb//yPawIGzcFop2eVjMiTmAXyHvryxQbIuslyfQHuN5v7E60oPSyXXua2Kw.158RYTKv4/:20583:0:99999:7:::
-daguirre:$6$icsqorkb$Pi9g/LW7LpYzBbswIjVSagqTp9traSPfgNX5eGeazHUL5.SsIH/7TBBLRp.pbfmzBqYB/UDgMOZEBt1Ipis8y1:20583:0:99999:7:::
-nmacgarry:$6$xcbhakri$hCA9R0ydm2Q3hyN6J5isohAC5rF0o.wTrNtSTklxuLrO/tyvB4nRAE2PjMbMwuALsiRrwSEIbrZiyr3av43q31:20583:0:99999:7:::
-jadrover:$6$bawnjosp$5dVs4qNdpYBbHh3/YaqGiRkpzq6yTkumTj695S4OAADXgZffcG76DEpkxeVBLtYF2NVDJi4S6Gpf5LNyG77kT.:20583:0:99999:7:::

@@ -1,6 +1,6 @@
 # Parte 2
 
-ya teniamos la credencial  `daguirre:contratreta`, entonces accedimos al mismo, y como primer paso lo que hicimos es reconocer lo que se tenia.., para eso lo que se hizo fue ejecutar el programa limpeas (Linux Privilege Escalation Awesome Script), primero se lo movio con:
+ya teniamos la credencial  `daguirre:contratreta` (se destaca que `daguirre` es el usuario que se utilizara para la escalada), entonces accedimos al mismo, y como primer paso lo que hicimos es reconocer lo que se tenia.., para eso lo que se hizo fue ejecutar el programa limpeas (Linux Privilege Escalation Awesome Script), primero se lo movio con:
 
 ```bash
 scp /usr/local/bin/linpeas.sh daguirre@10.0.3.5:/tmp/linpeas.sh

@@ -80,6 +80,7 @@ root:$6$yusvwqkt$XGlTL1BfevHD5VHtYKDvJh14vRa48VgRX5QfjEVo9KD53Zs5IRi5iM8/H9X7dnV
 
 y con estos usuarios, probamos con el diccionario del curso, y encontramos las credenciales para `daguirre:contratreta`, gracias a esto se pudo acceder a una shell... empezando asi la segunda parte
 
+para el resto de usarios, se lo documento dentro de `usuarios.txt`
 
 -----
 
