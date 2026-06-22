@@ -5,7 +5,7 @@ Matias Montano
 ## para comprimir y enviar
 
 ```bash
-tar -czvf entrega2.tar.gz entrega2/
+tar -czvf entrega4.tar.gz entrega4/
 ```
 Explicación de las opciones:
 

